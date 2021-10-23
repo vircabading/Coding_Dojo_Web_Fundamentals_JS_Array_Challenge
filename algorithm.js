@@ -9,8 +9,8 @@ import { print_ln } from "./module.js";
 /////////////////////////////////////////////////
 // Functions
 
-function alwaysHungry (tempArray) {
-    var foundFood = false;
+function alwaysHungry (tempArray) {                 // Function that says yummy if it finds food in the array
+    var foundFood = false;                          //     says "I'm hungry" if it doesn't find food in the array
     for (var x=0; x<tempArray.length; x++) {
         if (tempArray[x] == 'food') {
             console.log("yummy");
